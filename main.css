@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #28B263;
+    color: #ecf0f1;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Bungee", cursive;
+    font-weight: normal;
+}
+
+body, form, textarea {
+    font-family: "Roboto", sans-serif;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header .conteiner h1{
+    font-size: 28px;
+}
+
+.conteiner{
+    max-width: 1280px;
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header .conteiner,
+section .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .conteiner{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section{
+    color: #0ECB80;
+}
+
+section p{
+    margin-bottom: 8px;
+    color: #002aa8;
+}
+
+.store-front{
+    margin-right: 32px;
+    height: 300px;
+}
+
+#products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#products .conteiner{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-title h3 {
+    margin-right: 20px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+#contact .conteiner{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 100px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: #0ECB80;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #28B263;
+}
+
+input:focus, textarea:focus{
+    outline-color: #182C61;
+}
+
+footer{
+    background-color: #28B263;
+    color:#ecf0f1;
+    padding: 16px 0;
+}
+
+.vitrine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .camisetas, .moletons, .calcas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .camisetas ul, .moletons ul, .calcas ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .camisetas li, .moletons li, .calcas li {
+    margin-right: 20px;
+  }
+
+  .vitrine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .camisetas, .moletons, .calcas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .camisetas ul, .moletons ul, .calcas ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .camisetas li, .moletons li, .calcas li {
+    margin-bottom: 50px;
+    margin-right: 30px;
+  }
+
+  .camisetas ul, .moletons ul, .calcas ul {
+    list-style-type: none;
+  }
+
+  .camisetas li button, .moletons li button, .calcas li button {
+    background-color: #0ECB80;
+    color: #ecf0f1;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .camisetas li button:hover, .moletons li button:hover, .calcas li button:hover {
+    background-color: #28B263;
+  }
+
+  .camisetas li img, .moletons li img, .calcas li img {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .camisetas li button, .moletons li button, .calcas li button {
+    display: block;
+  }
